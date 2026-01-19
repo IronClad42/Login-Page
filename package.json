@@ -10,6 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "install": "^0.13.0"
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "express-session": "^1.18.2",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^7.0.12"
   }
 }
