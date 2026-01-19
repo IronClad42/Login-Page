@@ -1,6 +1,6 @@
-FROM 18.12.8
-COPY npm install
+FROM 18.20.0-alpine
 WORKDIR app
+COPY . .
 RUN npm install
 EXPOSE 1000
 CMD ["node","index.js"]
