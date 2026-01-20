@@ -1,4 +1,4 @@
-FROM 18.12.0-alpine
+FROM 18.20.8-alpine
 WORKDIR app
 COPY . .
 RUN npm install
