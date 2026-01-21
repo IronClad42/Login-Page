@@ -5,8 +5,8 @@ var util = require("util");
 var conn = mysql.createConnection({
     host:"localhost",
     user:"root",
-    password:"",
-    database:"node_js"
+    password:"Pass#123",
+    database:"NodeJs"
 });
 
 var exe = util.promisify(conn.query).bind(conn);
